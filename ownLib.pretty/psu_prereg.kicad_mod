@@ -1,0 +1,38 @@
+(module psu_prereg (layer F.Cu) (tedit 5DEC1F80)
+  (attr virtual)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value psu_prereg (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 21.5 33) (size 7.4 7.4) (drill 4.5) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 21.5 -33) (size 7.4 7.4) (drill 4.5) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -21.5 -33) (size 7.4 7.4) (drill 4.5) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -21.5 33) (size 7.4 7.4) (drill 4.5) (layers *.Cu *.Mask))
+  (model :dp:wuerth_9775041360R.step
+    (offset (xyz -21.5 -33 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model :dp:wuerth_9775041360R.step
+    (offset (xyz 21.5 -33 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model :dp:wuerth_9775041360R.step
+    (offset (xyz -21.5 33 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model :dp:wuerth_9775041360R.step
+    (offset (xyz 21.5 33 0))
+    (scale (xyz 0.9 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model :dp:psu_prereg.step
+    (offset (xyz -123.5 -62 -5.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+)

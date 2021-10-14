@@ -1,0 +1,17 @@
+(module ArcolectricBulgin_H8350RP_cutout (layer F.Cu) (tedit 5DEABD5C)
+  (descr Arcolectric/Bulgin_H8350RP_cutout)
+  (tags "Arcolectric/Bulgin H8350RP cutout")
+  (attr virtual)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value bukling_H8350RP_cutout (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 9.6 0) (layer Edge.Cuts) (width 0.05))
+  (model :dp:H8350RP.step
+    (offset (xyz 0 0 -36.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)

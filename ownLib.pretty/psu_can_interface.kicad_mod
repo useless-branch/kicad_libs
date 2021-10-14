@@ -1,0 +1,20 @@
+(module psu_can_interface (layer F.Cu) (tedit 5DEBE8AC)
+  (attr virtual)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value psu_can_interface (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 8.85 -6) (end -8.85 -6) (layer Edge.Cuts) (width 0.05))
+  (fp_line (start 8.85 -6) (end 8.85 6) (layer Edge.Cuts) (width 0.05))
+  (fp_line (start 8.85 6) (end -8.85 6) (layer Edge.Cuts) (width 0.05))
+  (fp_line (start -8.85 -6) (end -8.85 6) (layer Edge.Cuts) (width 0.05))
+  (pad "" np_thru_hole circle (at 12.5 -5) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -12.5 -5) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  (model :dp:psu_can_interface.step
+    (offset (xyz 133.5 -96.2 -15.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

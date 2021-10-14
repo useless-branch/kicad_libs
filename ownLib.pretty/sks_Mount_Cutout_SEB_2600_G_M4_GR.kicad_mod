@@ -1,0 +1,17 @@
+(module sks_Mount_Cutout_SEB_2600_G_M4_GR (layer F.Cu) (tedit 5DEAC7D4)
+  (descr "4mm Banana socked sks_SEB_2600_G_M4")
+  (tags "4mm Banana socked sks_SEB_2600_G_M4")
+  (attr virtual)
+  (fp_text reference REF** (at 0.09 -1.04) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value sks_Mount_Cutout_SEB_2600_G_M4_GR (at 0.2 1.57) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 6.1 0) (layer Edge.Cuts) (width 0.05))
+  (model :dp:sks_SEB_2600_G_M4_GR.step
+    (offset (xyz 0 -7.25 2.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
+)
