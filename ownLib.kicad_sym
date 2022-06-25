@@ -1607,7 +1607,7 @@
         (name "VCAP4" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -13.97 -41.91 0) (length 2.54) hide
+      (pin free line (at 1.27 -19.05 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
@@ -1615,7 +1615,7 @@
         (name "VCAP1" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -13.97 -41.91 0) (length 2.54)
+      (pin free line (at 1.27 -19.05 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
@@ -1639,7 +1639,7 @@
         (name "DGND" (effects (font (size 1.27 1.27))))
         (number "33" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -13.97 -21.59 0) (length 2.54)
+      (pin bidirectional line (at -13.97 -21.59 0) (length 2.54)
         (name "DIN" (effects (font (size 1.27 1.27))))
         (number "34" (effects (font (size 1.27 1.27))))
       )
@@ -1667,7 +1667,7 @@
         (name "IN7P" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -13.97 -31.75 0) (length 2.54)
+      (pin bidirectional line (at -13.97 -31.75 0) (length 2.54)
         (name "SCLK" (effects (font (size 1.27 1.27))))
         (number "40" (effects (font (size 1.27 1.27))))
       )
@@ -1679,7 +1679,7 @@
         (name "GPIO1" (effects (font (size 1.27 1.27))))
         (number "42" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -13.97 -24.13 0) (length 2.54)
+      (pin bidirectional line (at -13.97 -24.13 0) (length 2.54)
         (name "DOUT" (effects (font (size 1.27 1.27))))
         (number "43" (effects (font (size 1.27 1.27))))
       )
@@ -2466,7 +2466,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "BHI160_0_0"
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -2486,19 +2486,19 @@
         (name "VDD" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "17" (effects (font (size 1.27 1.27))))
       )
@@ -2506,11 +2506,11 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "18" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -2522,7 +2522,7 @@
         (name "ASDA" (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "RESV4" (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
@@ -2538,15 +2538,15 @@
         (name "GPIO1" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "RESV2" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "RESV3" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -13.335 -27.305 90) (length 2.54) hide
+      (pin free line (at -13.335 -27.305 90) (length 2.54) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
@@ -3078,7 +3078,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ESP32-DevKitC_0_0"
-      (pin bidirectional line (at -1.27 35.56 270) (length 2.54)
+      (pin power_in line (at -1.27 35.56 270) (length 2.54)
         (name "VDD33" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -3955,15 +3955,15 @@
         (name "~{CS}" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -11.43 -17.78 0) (length 2.54)
+      (pin bidirectional line (at -11.43 -17.78 0) (length 2.54)
         (name "SCK" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -11.43 -15.24 0) (length 2.54)
+      (pin bidirectional line (at -11.43 -15.24 0) (length 2.54)
         (name "SDI" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -11.43 -12.7 0) (length 2.54)
+      (pin bidirectional line (at -11.43 -12.7 0) (length 2.54)
         (name "SDO" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -4146,11 +4146,11 @@
         (name "OUT" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 1.27 0) (length 2.54) hide
+      (pin free line (at -2.54 1.27 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 1.27 0) (length 2.54) hide
+      (pin free line (at -2.54 1.27 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -4162,11 +4162,11 @@
         (name "EN" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 1.27 0) (length 2.54) hide
+      (pin free line (at -2.54 1.27 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 1.27 0) (length 2.54) hide
+      (pin free line (at -2.54 1.27 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -4889,19 +4889,35 @@
     )
   )
   (symbol "TFT_Touch_Shield_WaveShare" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "U?" (id 0) (at 2.0194 16.51 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TFT_Touch_Shield_WaveShare" (id 1) (at 0 31.75 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "TFT_Touch_Shield_WaveShare" (id 1) (at 2.0194 13.97 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.waveshare.com/3.5inch-tft-touch-shield.htm" (id 3) (at 0 38.1 0)
+    (property "Datasheet" "https://www.waveshare.com/3.5inch-tft-touch-shield.htm" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TFT_Touch_Shield_WaveShare_0_0"
+      (pin bidirectional line (at 15.24 -7.62 180) (length 2.54)
+        (name "+X" (effects (font (size 1.27 1.27))))
+        (number "" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 15.24 -2.54 180) (length 2.54)
+        (name "+Y" (effects (font (size 1.27 1.27))))
+        (number "" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 15.24 -10.16 180) (length 2.54)
+        (name "-X" (effects (font (size 1.27 1.27))))
+        (number "" (effects (font (size 1.27 1.27))))
+      )
+      (pin bidirectional line (at 15.24 -5.08 180) (length 2.54)
+        (name "-Y" (effects (font (size 1.27 1.27))))
+        (number "" (effects (font (size 1.27 1.27))))
+      )
       (pin power_in line (at 0 13.97 270) (length 2.54)
         (name "5V" (effects (font (size 1.27 1.27))))
         (number "" (effects (font (size 1.27 1.27))))
