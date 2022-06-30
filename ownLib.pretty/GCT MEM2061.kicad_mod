@@ -48,4 +48,9 @@
       )
     )
   )
+  (model "${KICAD6_3DMODEL_DIR}/Connector_Card.3dshapes/microSD_HC_Hirose_DM3D-SF.step"
+    (offset (xyz 0 -0.5 0))
+    (scale (xyz 1.2 1.2 1))
+    (rotate (xyz 0 0 0))
+  )
 )
